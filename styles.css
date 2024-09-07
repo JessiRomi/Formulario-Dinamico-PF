@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #653ead, #b39ddb);
+}
+
+/* Contenedor centrado */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Estilos del formulario */
+.form {
+    background-color: #eceff1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ajustar el ancho del formulario */
+    width: 400px;
+    text-align: center;
+}
+
+/* Título del formulario */
+h2 {
+    margin-bottom: 20px;
+    color: #512da8;
+}
+
+/* Etiquetas del formulario */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #512da8;
+    font-weight: bold;
+}
+
+/* Estilos para los inputs y el select */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #b39ddb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo del botón de envío */
+button {
+    background-color: #7e57c2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5e35b1;
+}

@@ -1,0 +1,9 @@
+{
+    "options": [
+        { "value": "opcion1", "label": "Desarrollo Web" },
+        { "value": "opcion2", "label": "Diseño Gráfico" },
+        { "value": "opcion3", "label": "Marketing Digital" },
+        { "value": "opcion4", "label": "Ciberseguridad" },
+        { "value": "opcion5", "label": "Gestión de Proyectos" }
+    ]
+}
